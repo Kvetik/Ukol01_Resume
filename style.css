@@ -1,0 +1,128 @@
+
+.hlavicka {
+    color: #502863;
+    background-color: #b8afeb;
+    text-align: center;
+    line-height: 1;
+    padding: 30px 30px;
+
+}
+
+
+body {
+    color: #502863;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+
+a {
+    color:#502863;
+   
+}
+
+section {
+    padding: 20px 20px; 
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #502863;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+    
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+
+ .foto-Kveta {
+    margin: 10px 20px 30px 10px;
+    float: left;
+    width: 200px;
+    border-radius: 30%;
+    border: 2px solid #581975;
+ }
+
+ .address-logo {
+    float: left;
+    width: 25px;
+    border-radius: 50%;
+
+ }
+
+ .linkedin-logo {
+    float: left;
+    width: 30px;
+    border-radius: 50%;
+ }
+
+ .email-logo {
+    float: left;
+    width: 25px;
+    border-radius: 50%;
+ }
+
+ .phone-logo {
+    float: left;
+    width: 30px;
+    border-radius: 50%;
+ }
+
+ .aboutme {
+    background-color: #cfb2cd;
+    text-align: right;
+}
+
+.kontakt {
+    background-color: #cfb2cd;
+    font-size: 10px;
+    text-align: left;
+    overflow: auto;
+    line-height: 2;
+}
+
+.kontakt .address-logo,
+.kontakt .linkedin-logo,
+.kontakt .email-logo,
+.kontakt .phone-logo {
+    text-align: center;
+}
+
+
+
+.education {
+    background-color: #cfb2cd;
+}
+
+.work {
+    background-color: #b8afeb;
+}
+
+.skills {
+    background-color: #cfb2cd;
+}
+
+.paticka {
+    color: #502863;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(145, 98, 189);
+}
