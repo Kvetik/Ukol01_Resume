@@ -1,65 +1,242 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+
+/*Uvod - Jmeno, posledni pozice, background*/
 
 .hlavicka {
-    color: #502863;
-    background-color: #b8afeb;
+    background-color: #1b7979;
     text-align: center;
     line-height: 1;
-    padding: 30px 30px;
+    padding: 20px;
 
 }
 
+/* Menu */
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: whitesmoke;
+    border-top: 2px solid #3a1c47;
+    border-bottom: 2px solid #3a1c47;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    color: #3a1c47;
+}
+
+.menu a:hover {
+    background-color: #b596c2;
+}
 
 body {
-    color: #502863;
+    color: #3a1c47;
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 15px;
     line-height: 1.5;
 
 }
 
+/*Uvodni sekce - About me a Contact info*/
+
+#aboutme,
+#contact {
+    margin: 0;
+}
+
+#aboutme {
+    background-color: #76c7d3;
+    margin-top: 40px;
+    width: 50%;
+    height: 350px;
+    float: right;
+    text-align: center;
+    
+}
+
+#contact {
+    background-color: #76c7d3;
+    margin-top: 20px;
+    border-right: 2px solid #502863;
+    width: 40%;
+    height: 350px;
+    float: left;
+    font-size: 14px;
+    text-align: left;
+}
+
+.foto-Kveta {
+    margin: 0 0 30px 30px;
+    float: left;
+    width: 200px;
+    border-radius: 20%;
+    overflow: auto;
+}
+
+  
+
 a {
-    color:#502863;
-   
+    color:#502863
 }
 
 section {
-    padding: 20px 20px; 
+    padding: 30px 20%; 
     text-align: center;
+    overflow: auto;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    color: #502863;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3a1c47;
+    font-family: "Poppins", sans-serif;
 }
 
 
 h1 {
-    margin: 0;
     font-size: 40px;
+    text-shadow: 0 2px 4px #502863;
     
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 26px;
+    margin-top: 0;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 16px;
+    margin: 0;
+    padding: 10px
 }
 
 
-
- .foto-Kveta {
-    margin: 10px 20px 30px 10px;
-    float: left;
-    width: 200px;
-    border-radius: 30%;
-    border: 2px solid #581975;
- }
+ 
 
  .address-logo {
     float: left;
@@ -86,18 +263,7 @@ h3 {
     border-radius: 50%;
  }
 
- .aboutme {
-    background-color: #cfb2cd;
-    text-align: right;
-}
 
-.kontakt {
-    background-color: #cfb2cd;
-    font-size: 10px;
-    text-align: left;
-    overflow: auto;
-    line-height: 2;
-}
 
 .kontakt .address-logo,
 .kontakt .linkedin-logo,
@@ -106,23 +272,64 @@ h3 {
     text-align: center;
 }
 
+/*Education plus work segment*/
 
+#education,
+#skills {
+    background-color: whitesmoke;
+    font-size: 13px;
+
+}
+
+#education {
+    width: 60%;
+    height: 400px;
+    float: right;
+    border-left: 2px solid #502863;
+    text-align: center;
+
+}
+
+#skills {
+    width: 30%;
+    height: 400px;
+    float: left;
+    text-align: center;
+}  
+
+
+/* Sections*/
+
+.aboutme {
+    background-color: #76c7d3;
+}
 
 .education {
-    background-color: #cfb2cd;
+    background-color: whitesmoke;
 }
 
 .work {
-    background-color: #b8afeb;
+    background-color: #76c7d3;
 }
 
-.skills {
-    background-color: #cfb2cd;
+.interests {
+    background-color: whitesmoke;
+    
 }
+
+.interests img {
+    width: 15%;
+    border-radius: 20%;
+    align-items: center;
+}
+
+
+
+/*Paticka*/
 
 .paticka {
-    color: #502863;
+    color: #3a1c47;
     font-weight: bold;
     text-align: center;
-    background-color: rgb(145, 98, 189);
+    background-color: #1b7979;;
 }

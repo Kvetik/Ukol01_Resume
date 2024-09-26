@@ -1,2 +1,6 @@
 Seznam barev pro jednotlive sekce resume
 
+#1b7979 - hlavicka pozadi
+#eeddb2 - Education, Skills segment 
+##76c7d3 - barva About me, Work experience
+#3a1c47 - barva nadpisu, pisma
